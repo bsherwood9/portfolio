@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: "Rajdhani", sans-serif;
+}
+body {
+  max-width: 500px;
+  width: 100%;
+  background: url(https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2638&q=80)
+    no-repeat center center fixed;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 10%;
+  padding-top: 1%;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.main {
+  width: 100%;
+}
+header nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+}
+
+header nav a:hover {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  transform: scale(1.1);
+}
+
+.main-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+
+  height: 60%;
+  width: 100%;
+}
+
+.square {
+  height: 22%;
+  width: 90%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.box-square {
+  padding: 2%;
+  margin: 2% 0;
+  background: rgba(256, 256, 256, 0.7);
+  border: 1px solid black;
+}
+
+img {
+  max-width: 100%;
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.copy {
+  color: white;
+}
+
+span {
+  border: 0.5px solid black;
+  padding: 3px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box-square a {
+  color: black;
+}
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+  padding: 2% 2%;
+}
+a:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  header nav {
+    width: 50%;
+  }
+  .main-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .square {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    max-width: 1000px;
+  }
+}
