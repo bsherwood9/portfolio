@@ -149,12 +149,13 @@ header {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
   height: 10%;
   padding-top: 1%;
 }
-header .logo {
-  font-size: 2rem;
-  font-weight: 700;
+header .logo img {
+  height: 40px;
+  width: auto;
 }
 header nav {
   width: 80%;
@@ -203,6 +204,10 @@ footer .copy {
   position: absolute;
   bottom: 0;
   margin-bottom: 1%;
+}
+footer .copy a {
+  text-decoration: none;
+  color: white;
 }
 .main-content {
   width: 100%;
