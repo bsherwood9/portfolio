@@ -204,21 +204,29 @@ footer .copy {
   bottom: 0;
   margin-bottom: 1%;
 }
-.main-content {
-  width: 100%;
+html {
+  height: 100vh;
+}
+html .contactMe {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 38vh 0;
+  align-items: left;
+  width: 200px;
 }
-.main-content h1 {
-  font-size: 5rem;
-  margin: 0;
-  z-index: 1;
+html .contactMe a {
+  padding: 3%;
+  margin-left: 2%;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  color: black;
+  text-decoration: none;
 }
-.main-content .middle-line {
-  width: 100%;
-  border: solid 3rem rgba(255, 255, 255, 0.4);
-  margin: -3rem 0;
+html .contactMe a img {
+  margin-left: 2%;
+  height: 24px;
+  width: 24px;
+}
+html .contactMe a h1 {
+  padding: 0 3%;
 }
