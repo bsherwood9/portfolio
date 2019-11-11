@@ -230,16 +230,13 @@ footer .copy a {
   text-decoration: none;
   color: white;
 }
-html {
-  height: 100vh;
-}
-html div .contactMe {
+div .contactMe {
   display: flex;
   flex-direction: column;
   align-items: left;
   width: 200px;
 }
-html div .contactMe a {
+div .contactMe a {
   padding: 3%;
   margin-left: 2%;
   display: flex;
@@ -248,14 +245,14 @@ html div .contactMe a {
   color: black;
   text-decoration: none;
 }
-html div .contactMe a:hover {
+div .contactMe a:hover {
   text-decoration: underline;
 }
-html div .contactMe a img {
+div .contactMe a img {
   margin-left: 2%;
   height: 24px;
   width: 24px;
 }
-html div .contactMe a h1 {
+div .contactMe a h1 {
   padding: 0 3%;
 }
