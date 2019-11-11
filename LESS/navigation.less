@@ -8,16 +8,31 @@ header {
   .logo {
     // font-size: 2rem;
     // font-weight: 700;
+    margin-top: -3px;
     img {
-      height: 40px;
+      height: 30px;
       width: auto;
+    }
+    .tree {
+      display: none;
+      @media screen and (max-width: 499px) {
+        display: block;
+        margin-left: 5px;
+        margin-top: 0;
+      }
+    }
+    .realLogo {
+      display: none;
+      @media screen and (min-width: 500px) {
+        display: block;
+        margin-left: 5px;
+      }
     }
   }
   nav {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     @media screen and (min-width: 500px) {
       nav {
         width: 50%;
