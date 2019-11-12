@@ -149,7 +149,7 @@ html body {
   }
 }
 html body .background {
-  background: url(https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2638&q=80);
+  background: url(/Assets/img/backgroundCity-min.jpeg);
   right: 0;
   left: 0;
   bottom: 0;
@@ -293,7 +293,7 @@ footer .copy a {
   }
 }
 .box-square {
-  height: 22%;
+  height: auto;
   width: 90%;
   display: flex;
   flex-flow: column nowrap;
