@@ -18,3 +18,6 @@ https://kentcdodds.com/blog/
 https://robbowen.digital/
 
 Greensock maybe for the animations??
+Going to be using ADOBE XD to really build this out. Already added a react app that I will eventually replace this app with.
+
+Now need to add designs, start building, and figure out if these changes will break the live site that I am hosting.
