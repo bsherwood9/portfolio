@@ -22,4 +22,4 @@ Going to be using ADOBE XD to really build this out. Already added a react app t
 
 Now need to add designs, start building, and figure out if these changes will break the live site that I am hosting.
 
-Definitely won't be using redux.
+Figured I may need to delay this project as I am still trying to get redux to work .
