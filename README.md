@@ -7,7 +7,6 @@ There are a number of things that I want to do to change my portfolio.
 3. Use atleast 1 custom hook
 4. Style with material-UI
 
-I'd like to get a lot of this done by February 2 2020
 #100DaysOfCode
 
 How am I going to use state here?
@@ -23,3 +22,5 @@ Going to be using ADOBE XD to really build this out. Already added a react app t
 Now need to add designs, start building, and figure out if these changes will break the live site that I am hosting.
 
 Figured I may need to delay this project as I am still trying to get redux to work .
+
+Which projects to add to portfolio?
