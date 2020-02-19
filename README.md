@@ -24,3 +24,4 @@ Now need to add designs, start building, and figure out if these changes will br
 Figured I may need to delay this project as I am still trying to get redux to work .
 
 Which projects to add to portfolio?
+I should add the spiderchart - also new build week project.
