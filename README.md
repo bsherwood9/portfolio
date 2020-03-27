@@ -25,3 +25,5 @@ Figured I may need to delay this project as I am still trying to get redux to wo
 
 Which projects to add to portfolio?
 I should add the spiderchart - also new build week project.
+
+Going to use sass and make it more standard looking.
